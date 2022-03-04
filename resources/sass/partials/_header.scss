@@ -1,0 +1,33 @@
+.header-top {
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 100%;
+    .header-top-in {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 80%;
+        h6 {
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+    }
+}
+
+.header-bot {
+    height: 80px;
+    .header-bot-in {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        padding-top: 20px;
+        margin: auto;
+        img {
+            height: 50px;
+            width: 50px;
+            padding-bottom: 5px;
+        }
+    }
+}

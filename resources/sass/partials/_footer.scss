@@ -1,0 +1,37 @@
+.menu {
+    margin-top: 25px;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    ul {
+        list-style: none;
+        margin-right: 65px;
+        .wimpo {
+            font-size: 25px;
+            color: white;
+            margin-top: 10px;
+            margin-bottom: 25px;
+        }
+        li {
+            color: rgb(120, 120, 120);
+            margin-bottom: 3px;
+        }
+    }
+}
+
+.bottbox {
+    background-image: url("../../img/footer-bg.jpg");
+    height: 450px;
+    display: flex;
+    overflow: hidden;
+}
+
+.logo {
+    img {
+        height: 500px;
+        overflow: auto;
+        padding-right: 40px;
+    }
+}
